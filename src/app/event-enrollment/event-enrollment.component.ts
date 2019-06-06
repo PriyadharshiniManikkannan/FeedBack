@@ -43,7 +43,7 @@ export class EventEnrollmentComponent implements OnInit {
 
   Register()
   {
-    console.log(this.EventId);
+    console.log(this.Events);
     var objEnrollment = new Enrollment();   
     objEnrollment.EventId =this.EventId;
     objEnrollment.EmployeeId =this.EmployeeId;

@@ -10,7 +10,7 @@
     
   <select class="form-control col-md-4" [(ngModel)]="Events" 
    id="EventName" name="Events" required #EventId="ngModel">
-        <option *ngFor="let e of Events" [(value)]="e.EventId">{{e.EventName}}</option>
+        <option *ngFor="let e of Events" [ngValue]="e.EventId">{{e.EventName}}</option>
       </select> 
 
       
